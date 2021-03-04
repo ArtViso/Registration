@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:steelblue;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.contentback{
+    width: 300px;
+    padding: 2% 2% 2% 2%;
+    margin: 0 auto;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(233, 233, 233);
+}
+.button{
+    margin-top: 10%;
+    text-align: center;
+}
+button{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 2px solid rgb(102, 181, 246);
+    font-size: 25px;
+    color:#000;
+    background-color:rgb(231, 231, 231);;
+    transition: .5s;
+}
+button:hover {
+    background: rgb(102, 181, 246);
+    transition: .3s;
+}
+input{
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    outline: none;
+    color: black;
+    border: 2px solid rgb(180, 180, 180);
+}
+small{
+    visibility: hidden;
+    color:red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-control{
+    margin-top: 5%;
+    width: 100%;
+    height: 70px;
+}
+.form-control.success input{
+    border-color: #26ac5e;
+}
+.form-control.error input{
+    border-color: #e74c3c;
+}
+.form-control.success i.fa-check{
+    visibility: visible;
+    color: #26ac5e;
+}
+.form-control.error i.fa-times{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    margin-top: -1.35%;
+    margin-left: 15.25%;
+}
+.form-control h4{
+    padding: 5% 0 2% 0;
+}
+h1{
+    text-align: center;
+}
+
